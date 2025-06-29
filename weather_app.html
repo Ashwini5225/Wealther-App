@@ -55,15 +55,15 @@
                 document.querySelector(".humidity").innerHTML=data.main.temp+"%";
                 document.querySelector(".wind").innerHTML=data.wind.speed+"km/h";
                 if(data.weather[0].main=="Clouds"){
-                    weatherIcon.src="C:\\Users\\p nikeel kumar\\Downloads\\clouds.png";
+                    weatherIcon.src="https://i.pinimg.com/736x/74/fc/34/74fc346aeef86e573869fa50546d715b.jpg";
                 }else if(data.weather[0].main=="Clear"){
-                    weatherIcon.src="C:\\Users\\p nikeel kumar\\Downloads\\clear.png";
+                    weatherIcon.src="https://media.istockphoto.com/id/947314334/photo/blue-sky-with-bright-sun.jpg?s=612x612&w=0&k=20&c=XUlLAWDXBLYdTGIl6g_qHQ9IBBw4fBvkVuvL2dmVXQw=";
                 }else if(data.weather[0].main=="Rain"){
-                    weatherIcon.src="C:\\Users\\p nikeel kumar\\Downloads\\rain.png";
+                    weatherIcon.src="https://img.freepik.com/premium-vector/vector-isolated-weather-app-icon-with-rainy-cloud-interface-elements-flat-design-web-banner_1071100-313.jpg";
                 }else if(data.weather[0].main=="Deizzle"){
-                    weatherIcon.src="C:\\Users\\p nikeel kumar\\Downloads\\drizzle.png";
+                    weatherIcon.src="https://cdn-icons-png.flaticon.com/512/1458/1458966.png";
                 }else if(data.weather[0].main=="Mist"){
-                    weatherIcon.src="C:\\Users\\p nikeel kumar\\Downloads\\mist.png";
+                    weatherIcon.src="https://i.pinimg.com/564x/1e/c4/e8/1ec4e83f5d60afc434ac5dc8a9efcdf4.jpg";
                 }
                 document.querySelector(".weather").style.display="block";
                 document.querySelector(".error").style.display="none";
